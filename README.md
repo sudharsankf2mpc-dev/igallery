@@ -26,6 +26,7 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 gallery.html
+```
 <html>
 <head>
     <title>Interactive Image Gallery</title>
@@ -51,9 +52,9 @@ gallery.html
 </footer>
 </body>
 </html>
-
+```
 gallery.css
-
+```
 body {
     background: rgb(188, 137, 137);
     padding-top: 10px;
@@ -121,9 +122,10 @@ p
     font-size: 25px;
     margin-top: 19px;
 }
+```
 
 galler.js
-
+```
 const gallery = [
     { src: "zoo1.jpeg", caption: "zootopia 1##" },
     { src: "zoo2.jpeg", caption: "zootopia 2##" },
@@ -151,6 +153,7 @@ function changeImage(type) {
     document.getElementById("Image").src = gallery[index].src;
     document.getElementById("Text").innerText = gallery[index].caption;
 }
+```
 ## OUTPUT:
 ![alt text](<image 1.png>)
 ## RESULT:
